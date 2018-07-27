@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ControlesApp_JavaFX.jnlp">
+  <information>
+    <title>ControlesApp_JavaFX</title>
+    <vendor>Aluno_2</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ControlesApp_JavaFX.jar" size="1896" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ControlesApp_JavaFX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ControlesApp_JavaFX"  name="ControlesApp_JavaFX" />
+  <update check="always"/>
+</jnlp>
